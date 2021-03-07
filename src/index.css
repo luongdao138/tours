@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 320px;
+}
+
+article.item {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px #00000029;
+}
+
+section {
+  margin: 70px 0;
+}
+
+h2.title.text-center {
+  font-size: 40px;
+  font-weight: 700;
+  color: #102a42;
+  letter-spacing: 2px;
+}
+
+.seperate {
+  width: 100px;
+  height: 4px;
+  background: #49a6e9;
+  margin: auto;
+  border-radius: 2px;
+  /* text-align: center; */
+  margin-bottom: 60px;
+}
+
+.infor-wrapper {
+  padding: 30px;
+}
+
+p.name_price {
+  display: flex;
+  justify-content: space-between;
+}
+
+span.name {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #102a42;
+}
+
+span.price {
+  border-radius: 4px;
+  background: #ebf7ff;
+  padding: 4px 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #6faeea;
+}
+
+p.desc {
+  color: hsl(210deg 22% 49%);
+  margin-bottom: 20px;
+}
+
+button.readmore-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #31a3ec;
+  font-weight: 500;
+  font-size: 17px;
+  background: transparent;
+}
+
+button.not-interested-btn {
+  display: block;
+  margin: auto;
+  padding: 1px 40px 3px 40px;
+  font-size: 16px;
+  border: 1px solid hsl(0 67% 66% / 1);
+  outline: none;
+  color: #cd4432;
+  background: transparent;
+  letter-spacing: 2px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
+
+button.not-interested-btn:hover {
+  color: #fff;
+  background: #cd4432;
+  border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 92%;
+  }
+
+  h2.title.text-center {
+    font-size: 32px;
+  }
+
+  p.desc {
+    font-size: 14px;
+  }
+}
+
+h1.text-center {
+  margin-top: 50px;
+}
+
+button.refresh-btn {
+  display: block;
+  margin: auto;
+  padding: 1px 40px 3px 40px;
+  font-size: 16px;
+  border: 1px solid hsl(150deg 67% 66%);
+  outline: none;
+  color: #009688;
+  background: transparent;
+  letter-spacing: 2px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
