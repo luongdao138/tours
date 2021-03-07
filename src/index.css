@@ -58,6 +58,7 @@ h2.title.text-center {
 p.name_price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 span.name {
@@ -125,6 +126,14 @@ button.not-interested-btn:hover {
 
   p.desc {
     font-size: 14px;
+  }
+
+  span.name {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  span.price {
+    font-size: 13px;
   }
 }
 
